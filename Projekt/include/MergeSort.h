@@ -41,4 +41,62 @@ void MergeSort<T>::sort(std::vector<T>& values) {
     mergeSort(values, 0, values.size() - 1);
 }
 
+template <typename T>
+void MergeSort<T>::mergeSort(std::vector<T>& values, std::size_t left, std::size_t right) {
+    if (left >= right) {
+        return;
+    }
+
+    const std::size_t middle = left + (right - left) / 2;
+
+    mergeSort(values, left, middle);
+    mergeSort(values, middle + 1, right);
+
+    merge(values, left, middle, right);
+}
+
+template <typename T>
+void MergeSort<T>::merge(std::vector<T>& values, std::size_t left,
+    std::size_t middle, std::size_t right) {
+
+    std::vector<T> leftPart(
+        values.begin() + left,
+        values.begin() + middle + 1
+    );
+
+    std::vector<T> rightPart(
+        values.begin() + middle + 1,
+        values.begin() + right + 1
+    );
+
+    std::size_t leftIndex = 0;
+    std::size_t rightIndex = 0;
+    std::size_t mergedIndex = left;
+
+    while (leftIndex < leftPart.size() && rightIndex < rightPart.size()) {
+        if (leftPart[leftIndex] <= rightPart[rightIndex]) {
+            values[mergedIndex] = leftPart[leftIndex];
+            ++leftIndex;
+        }
+        else {
+            values[mergedIndex] = rightPart[rightIndex];
+            ++rightIndex;
+        }
+
+        ++mergedIndex;
+    }
+
+    while (leftIndex < leftPart.size()) {
+        values[mergedIndex] = leftPart[leftIndex];
+        ++leftIndex;
+        ++mergedIndex;
+    }
+
+    while (rightIndex < rightPart.size()) {
+        values[mergedIndex] = rightPart[rightIndex];
+        ++rightIndex;
+        ++mergedIndex;
+    }
+}
+
 #endif
