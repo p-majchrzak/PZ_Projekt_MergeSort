@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <vector>
 
@@ -16,11 +17,17 @@ int main() {
         std::cout << number << " ";
     }
 
-    std::cout << "\nSorted double array: ";
+    std::cout << "\nInteger array status: "
+        << (MergeSort<int>::isSorted(numbers) ? "Correct" : "Incorrect");
+
+    std::cout << "\n\nSorted double array: ";
 
     for (const double number : decimalNumbers) {
         std::cout << number << " ";
     }
+
+    std::cout << "\nDouble array status: "
+        << (MergeSort<double>::isSorted(decimalNumbers) ? "Correct" : "Incorrect");
 
     std::cout << '\n';
 
