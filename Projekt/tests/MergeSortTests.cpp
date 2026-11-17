@@ -67,3 +67,39 @@ TEST(MergeSortTests, HandlesSingleElementArray) {
 
     EXPECT_EQ(numbers, (std::vector<int>{7}));
 }
+
+// Sprawdza czy tablica zawierająca duplikaty zostaje poprawnie posortowana.
+TEST(MergeSortTests, SortsArrayWithDuplicates) {
+    std::vector<int> numbers = {4, 2, 4, 1, 2, 3};
+
+    MergeSort<int>::sort(numbers);
+
+    EXPECT_EQ(numbers, (std::vector<int>{1, 2, 2, 3, 4, 4}));
+}
+
+// Sprawdza czy tablica zawierająca liczby ujemne i duplikaty zostaje poprawnie posortowana.
+TEST(MergeSortTests, SortsNegativeNumbersWithDuplicates) {
+    std::vector<int> numbers = {-3, -1, -3, -5, -1, -2};
+
+    MergeSort<int>::sort(numbers);
+
+    EXPECT_EQ(numbers, (std::vector<int>{-5, -3, -3, -2, -1, -1}));
+}
+
+// Sprawdza czy tablica zawierająca liczby ujemne, dodatnie i duplikaty zostaje poprawnie posortowana.
+TEST(MergeSortTests, SortsMixedNumbersWithDuplicates) {
+    std::vector<int> numbers = {3, -2, 3, -5, 0, -2, 5};
+
+    MergeSort<int>::sort(numbers);
+
+    EXPECT_EQ(numbers, (std::vector<int>{-5, -2, -2, 0, 3, 3, 5}));
+}
+
+// Sprawdza czy tablica zawierająca dwa elementy w kolejności rosnącej pozostaje bez zmian.
+TEST(MergeSortTests, HandlesTwoSortedElements) {
+    std::vector<int> numbers = {2, 5};
+
+    MergeSort<int>::sort(numbers);
+
+    EXPECT_EQ(numbers, (std::vector<int>{2, 5}));
+}

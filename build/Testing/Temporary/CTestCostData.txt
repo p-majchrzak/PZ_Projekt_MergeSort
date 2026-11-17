@@ -1,8 +1,12 @@
-MergeSortTests.KeepsAlreadySortedArrayUnchanged 5 0.00114736
-MergeSortTests.SortsReverseSortedArray 3 0.00138262
-MergeSortTests.SortsRandomArray 2 0.00179912
-MergeSortTests.SortsNegativeNumbers 1 0.00421413
-MergeSortTests.SortsNegativeAndPositiveNumbers 1 0.00353042
-MergeSortTests.HandlesEmptyArray 1 0.00408404
-MergeSortTests.HandlesSingleElementArray 1 0.00372383
+MergeSortTests.KeepsAlreadySortedArrayUnchanged 6 0.000518896
+MergeSortTests.SortsReverseSortedArray 4 0.00066625
+MergeSortTests.SortsRandomArray 3 0.00107214
+MergeSortTests.SortsNegativeNumbers 2 0.00129748
+MergeSortTests.SortsNegativeAndPositiveNumbers 2 0.00128946
+MergeSortTests.HandlesEmptyArray 2 0.00115456
+MergeSortTests.HandlesSingleElementArray 2 0.00115654
+MergeSortTests.SortsArrayWithDuplicates 1 0.00221492
+MergeSortTests.SortsNegativeNumbersWithDuplicates 1 0.00255867
+MergeSortTests.SortsMixedNumbersWithDuplicates 1 0.00254817
+MergeSortTests.HandlesTwoSortedElements 1 0.00222867
 ---

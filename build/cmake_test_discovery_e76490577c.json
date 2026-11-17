@@ -1,10 +1,10 @@
 {
-  "tests": 7,
+  "tests": 11,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "MergeSortTests",
-      "tests": 7,
+      "tests": 11,
       "testsuite": [
         {
           "name": "KeepsAlreadySortedArrayUnchanged",
@@ -40,6 +40,26 @@
           "name": "HandlesSingleElementArray",
           "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
           "line": 63
+        },
+        {
+          "name": "SortsArrayWithDuplicates",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 72
+        },
+        {
+          "name": "SortsNegativeNumbersWithDuplicates",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 81
+        },
+        {
+          "name": "SortsMixedNumbersWithDuplicates",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 90
+        },
+        {
+          "name": "HandlesTwoSortedElements",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 99
         }
       ]
     }

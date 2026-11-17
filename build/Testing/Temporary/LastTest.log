@@ -1,10 +1,10 @@
-Start testing: Nov 17 15:18 CET
+Start testing: Nov 17 15:19 CET
 ----------------------------------------------------------
-1/7 Testing: MergeSortTests.KeepsAlreadySortedArrayUnchanged
-1/7 Test: MergeSortTests.KeepsAlreadySortedArrayUnchanged
+1/11 Testing: MergeSortTests.KeepsAlreadySortedArrayUnchanged
+1/11 Test: MergeSortTests.KeepsAlreadySortedArrayUnchanged
 Command: "/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests" "--gtest_filter=MergeSortTests.KeepsAlreadySortedArrayUnchanged" "--gtest_also_run_disabled_tests"
 Directory: /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build
-"MergeSortTests.KeepsAlreadySortedArrayUnchanged" start time: Nov 17 15:18 CET
+"MergeSortTests.KeepsAlreadySortedArrayUnchanged" start time: Nov 17 15:19 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -20,18 +20,18 @@ Note: Google Test filter = MergeSortTests.KeepsAlreadySortedArrayUnchanged
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"MergeSortTests.KeepsAlreadySortedArrayUnchanged" end time: Nov 17 15:18 CET
+"MergeSortTests.KeepsAlreadySortedArrayUnchanged" end time: Nov 17 15:19 CET
 "MergeSortTests.KeepsAlreadySortedArrayUnchanged" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/7 Testing: MergeSortTests.SortsReverseSortedArray
-2/7 Test: MergeSortTests.SortsReverseSortedArray
+2/11 Testing: MergeSortTests.SortsReverseSortedArray
+2/11 Test: MergeSortTests.SortsReverseSortedArray
 Command: "/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests" "--gtest_filter=MergeSortTests.SortsReverseSortedArray" "--gtest_also_run_disabled_tests"
 Directory: /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build
-"MergeSortTests.SortsReverseSortedArray" start time: Nov 17 15:18 CET
+"MergeSortTests.SortsReverseSortedArray" start time: Nov 17 15:19 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -50,15 +50,15 @@ Note: Google Test filter = MergeSortTests.SortsReverseSortedArray
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"MergeSortTests.SortsReverseSortedArray" end time: Nov 17 15:18 CET
+"MergeSortTests.SortsReverseSortedArray" end time: Nov 17 15:19 CET
 "MergeSortTests.SortsReverseSortedArray" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/7 Testing: MergeSortTests.SortsRandomArray
-3/7 Test: MergeSortTests.SortsRandomArray
+3/11 Testing: MergeSortTests.SortsRandomArray
+3/11 Test: MergeSortTests.SortsRandomArray
 Command: "/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests" "--gtest_filter=MergeSortTests.SortsRandomArray" "--gtest_also_run_disabled_tests"
 Directory: /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build
-"MergeSortTests.SortsRandomArray" start time: Nov 17 15:18 CET
+"MergeSortTests.SortsRandomArray" start time: Nov 17 15:19 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -77,15 +77,15 @@ Note: Google Test filter = MergeSortTests.SortsRandomArray
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"MergeSortTests.SortsRandomArray" end time: Nov 17 15:18 CET
+"MergeSortTests.SortsRandomArray" end time: Nov 17 15:19 CET
 "MergeSortTests.SortsRandomArray" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/7 Testing: MergeSortTests.SortsNegativeNumbers
-4/7 Test: MergeSortTests.SortsNegativeNumbers
+4/11 Testing: MergeSortTests.SortsNegativeNumbers
+4/11 Test: MergeSortTests.SortsNegativeNumbers
 Command: "/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests" "--gtest_filter=MergeSortTests.SortsNegativeNumbers" "--gtest_also_run_disabled_tests"
 Directory: /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build
-"MergeSortTests.SortsNegativeNumbers" start time: Nov 17 15:18 CET
+"MergeSortTests.SortsNegativeNumbers" start time: Nov 17 15:19 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -104,15 +104,15 @@ Note: Google Test filter = MergeSortTests.SortsNegativeNumbers
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"MergeSortTests.SortsNegativeNumbers" end time: Nov 17 15:18 CET
+"MergeSortTests.SortsNegativeNumbers" end time: Nov 17 15:19 CET
 "MergeSortTests.SortsNegativeNumbers" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/7 Testing: MergeSortTests.SortsNegativeAndPositiveNumbers
-5/7 Test: MergeSortTests.SortsNegativeAndPositiveNumbers
+5/11 Testing: MergeSortTests.SortsNegativeAndPositiveNumbers
+5/11 Test: MergeSortTests.SortsNegativeAndPositiveNumbers
 Command: "/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests" "--gtest_filter=MergeSortTests.SortsNegativeAndPositiveNumbers" "--gtest_also_run_disabled_tests"
 Directory: /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build
-"MergeSortTests.SortsNegativeAndPositiveNumbers" start time: Nov 17 15:18 CET
+"MergeSortTests.SortsNegativeAndPositiveNumbers" start time: Nov 17 15:19 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -131,15 +131,15 @@ Note: Google Test filter = MergeSortTests.SortsNegativeAndPositiveNumbers
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"MergeSortTests.SortsNegativeAndPositiveNumbers" end time: Nov 17 15:18 CET
+"MergeSortTests.SortsNegativeAndPositiveNumbers" end time: Nov 17 15:19 CET
 "MergeSortTests.SortsNegativeAndPositiveNumbers" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/7 Testing: MergeSortTests.HandlesEmptyArray
-6/7 Test: MergeSortTests.HandlesEmptyArray
+6/11 Testing: MergeSortTests.HandlesEmptyArray
+6/11 Test: MergeSortTests.HandlesEmptyArray
 Command: "/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests" "--gtest_filter=MergeSortTests.HandlesEmptyArray" "--gtest_also_run_disabled_tests"
 Directory: /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build
-"MergeSortTests.HandlesEmptyArray" start time: Nov 17 15:18 CET
+"MergeSortTests.HandlesEmptyArray" start time: Nov 17 15:19 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -158,15 +158,15 @@ Note: Google Test filter = MergeSortTests.HandlesEmptyArray
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"MergeSortTests.HandlesEmptyArray" end time: Nov 17 15:18 CET
+"MergeSortTests.HandlesEmptyArray" end time: Nov 17 15:19 CET
 "MergeSortTests.HandlesEmptyArray" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/7 Testing: MergeSortTests.HandlesSingleElementArray
-7/7 Test: MergeSortTests.HandlesSingleElementArray
+7/11 Testing: MergeSortTests.HandlesSingleElementArray
+7/11 Test: MergeSortTests.HandlesSingleElementArray
 Command: "/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests" "--gtest_filter=MergeSortTests.HandlesSingleElementArray" "--gtest_also_run_disabled_tests"
 Directory: /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build
-"MergeSortTests.HandlesSingleElementArray" start time: Nov 17 15:18 CET
+"MergeSortTests.HandlesSingleElementArray" start time: Nov 17 15:19 CET
 Output:
 ----------------------------------------------------------
 Running main() from /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -185,8 +185,116 @@ Note: Google Test filter = MergeSortTests.HandlesSingleElementArray
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"MergeSortTests.HandlesSingleElementArray" end time: Nov 17 15:18 CET
+"MergeSortTests.HandlesSingleElementArray" end time: Nov 17 15:19 CET
 "MergeSortTests.HandlesSingleElementArray" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 17 15:18 CET
+8/11 Testing: MergeSortTests.SortsArrayWithDuplicates
+8/11 Test: MergeSortTests.SortsArrayWithDuplicates
+Command: "/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests" "--gtest_filter=MergeSortTests.SortsArrayWithDuplicates" "--gtest_also_run_disabled_tests"
+Directory: /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build
+"MergeSortTests.SortsArrayWithDuplicates" start time: Nov 17 15:19 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MergeSortTests.SortsArrayWithDuplicates
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MergeSortTests
+[ RUN      ] MergeSortTests.SortsArrayWithDuplicates
+[       OK ] MergeSortTests.SortsArrayWithDuplicates (0 ms)
+[----------] 1 test from MergeSortTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MergeSortTests.SortsArrayWithDuplicates" end time: Nov 17 15:19 CET
+"MergeSortTests.SortsArrayWithDuplicates" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: MergeSortTests.SortsNegativeNumbersWithDuplicates
+9/11 Test: MergeSortTests.SortsNegativeNumbersWithDuplicates
+Command: "/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests" "--gtest_filter=MergeSortTests.SortsNegativeNumbersWithDuplicates" "--gtest_also_run_disabled_tests"
+Directory: /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build
+"MergeSortTests.SortsNegativeNumbersWithDuplicates" start time: Nov 17 15:19 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MergeSortTests.SortsNegativeNumbersWithDuplicates
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MergeSortTests
+[ RUN      ] MergeSortTests.SortsNegativeNumbersWithDuplicates
+[       OK ] MergeSortTests.SortsNegativeNumbersWithDuplicates (0 ms)
+[----------] 1 test from MergeSortTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MergeSortTests.SortsNegativeNumbersWithDuplicates" end time: Nov 17 15:19 CET
+"MergeSortTests.SortsNegativeNumbersWithDuplicates" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: MergeSortTests.SortsMixedNumbersWithDuplicates
+10/11 Test: MergeSortTests.SortsMixedNumbersWithDuplicates
+Command: "/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests" "--gtest_filter=MergeSortTests.SortsMixedNumbersWithDuplicates" "--gtest_also_run_disabled_tests"
+Directory: /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build
+"MergeSortTests.SortsMixedNumbersWithDuplicates" start time: Nov 17 15:19 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MergeSortTests.SortsMixedNumbersWithDuplicates
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MergeSortTests
+[ RUN      ] MergeSortTests.SortsMixedNumbersWithDuplicates
+[       OK ] MergeSortTests.SortsMixedNumbersWithDuplicates (0 ms)
+[----------] 1 test from MergeSortTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MergeSortTests.SortsMixedNumbersWithDuplicates" end time: Nov 17 15:19 CET
+"MergeSortTests.SortsMixedNumbersWithDuplicates" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: MergeSortTests.HandlesTwoSortedElements
+11/11 Test: MergeSortTests.HandlesTwoSortedElements
+Command: "/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests" "--gtest_filter=MergeSortTests.HandlesTwoSortedElements" "--gtest_also_run_disabled_tests"
+Directory: /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build
+"MergeSortTests.HandlesTwoSortedElements" start time: Nov 17 15:19 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MergeSortTests.HandlesTwoSortedElements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MergeSortTests
+[ RUN      ] MergeSortTests.HandlesTwoSortedElements
+[       OK ] MergeSortTests.HandlesTwoSortedElements (0 ms)
+[----------] 1 test from MergeSortTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MergeSortTests.HandlesTwoSortedElements" end time: Nov 17 15:19 CET
+"MergeSortTests.HandlesTwoSortedElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 17 15:19 CET
