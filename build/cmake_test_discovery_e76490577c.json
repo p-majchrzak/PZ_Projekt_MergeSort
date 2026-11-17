@@ -1,0 +1,17 @@
+{
+  "tests": 1,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "MergeSortTests",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "KeepsAlreadySortedArrayUnchanged",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 7
+        }
+      ]
+    }
+  ]
+}
