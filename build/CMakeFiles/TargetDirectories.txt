@@ -28,6 +28,7 @@
 /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/CMakeFiles/ContinuousMemCheck.dir
 /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/CMakeFiles/ContinuousSubmit.dir
 /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/CMakeFiles/MergeSortTests.dir
+/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/CMakeFiles/MergeSortTypeTests.dir
 /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/CMakeFiles/test.dir
 /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/CMakeFiles/edit_cache.dir
 /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/CMakeFiles/rebuild_cache.dir

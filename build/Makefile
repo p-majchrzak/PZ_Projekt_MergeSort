@@ -565,6 +565,19 @@ MergeSortTests/fast:
 .PHONY : MergeSortTests/fast
 
 #=============================================================================
+# Target rules for targets named MergeSortTypeTests
+
+# Build rule for target.
+MergeSortTypeTests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MergeSortTypeTests
+.PHONY : MergeSortTypeTests
+
+# fast build rule for target.
+MergeSortTypeTests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeSortTypeTests.dir/build.make CMakeFiles/MergeSortTypeTests.dir/build
+.PHONY : MergeSortTypeTests/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -689,6 +702,30 @@ Projekt/tests/MergeSortTests.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeSortTests.dir/build.make CMakeFiles/MergeSortTests.dir/Projekt/tests/MergeSortTests.cpp.s
 .PHONY : Projekt/tests/MergeSortTests.cpp.s
 
+Projekt/tests/MergeSortTypeTests.o: Projekt/tests/MergeSortTypeTests.cpp.o
+.PHONY : Projekt/tests/MergeSortTypeTests.o
+
+# target to build an object file
+Projekt/tests/MergeSortTypeTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeSortTypeTests.dir/build.make CMakeFiles/MergeSortTypeTests.dir/Projekt/tests/MergeSortTypeTests.cpp.o
+.PHONY : Projekt/tests/MergeSortTypeTests.cpp.o
+
+Projekt/tests/MergeSortTypeTests.i: Projekt/tests/MergeSortTypeTests.cpp.i
+.PHONY : Projekt/tests/MergeSortTypeTests.i
+
+# target to preprocess a source file
+Projekt/tests/MergeSortTypeTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeSortTypeTests.dir/build.make CMakeFiles/MergeSortTypeTests.dir/Projekt/tests/MergeSortTypeTests.cpp.i
+.PHONY : Projekt/tests/MergeSortTypeTests.cpp.i
+
+Projekt/tests/MergeSortTypeTests.s: Projekt/tests/MergeSortTypeTests.cpp.s
+.PHONY : Projekt/tests/MergeSortTypeTests.s
+
+# target to generate assembly for a file
+Projekt/tests/MergeSortTypeTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MergeSortTypeTests.dir/build.make CMakeFiles/MergeSortTypeTests.dir/Projekt/tests/MergeSortTypeTests.cpp.s
+.PHONY : Projekt/tests/MergeSortTypeTests.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -732,6 +769,7 @@ help:
 	@echo "... NightlyUpdate"
 	@echo "... MergeSort"
 	@echo "... MergeSortTests"
+	@echo "... MergeSortTypeTests"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
@@ -742,6 +780,9 @@ help:
 	@echo "... Projekt/tests/MergeSortTests.o"
 	@echo "... Projekt/tests/MergeSortTests.i"
 	@echo "... Projekt/tests/MergeSortTests.s"
+	@echo "... Projekt/tests/MergeSortTypeTests.o"
+	@echo "... Projekt/tests/MergeSortTypeTests.i"
+	@echo "... Projekt/tests/MergeSortTypeTests.s"
 .PHONY : help
 
 

@@ -3,7 +3,7 @@ set_tests_properties([=[MergeSortTests.KeepsAlreadySortedArrayUnchanged]=]
   PROPERTIES
     
     _CMAKE_TEST_BUILD_DEPENDS [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests]==]
-    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:9]==]
+    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:8]==]
     WORKING_DIRECTORY [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -13,7 +13,7 @@ set_tests_properties([=[MergeSortTests.SortsReverseSortedArray]=]
   PROPERTIES
     
     _CMAKE_TEST_BUILD_DEPENDS [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests]==]
-    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:18]==]
+    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:17]==]
     WORKING_DIRECTORY [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -23,7 +23,7 @@ set_tests_properties([=[MergeSortTests.SortsRandomArray]=]
   PROPERTIES
     
     _CMAKE_TEST_BUILD_DEPENDS [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests]==]
-    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:27]==]
+    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:26]==]
     WORKING_DIRECTORY [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -33,7 +33,7 @@ set_tests_properties([=[MergeSortTests.SortsNegativeNumbers]=]
   PROPERTIES
     
     _CMAKE_TEST_BUILD_DEPENDS [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests]==]
-    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:36]==]
+    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:35]==]
     WORKING_DIRECTORY [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -43,7 +43,7 @@ set_tests_properties([=[MergeSortTests.SortsNegativeAndPositiveNumbers]=]
   PROPERTIES
     
     _CMAKE_TEST_BUILD_DEPENDS [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests]==]
-    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:45]==]
+    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:44]==]
     WORKING_DIRECTORY [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -53,7 +53,7 @@ set_tests_properties([=[MergeSortTests.HandlesEmptyArray]=]
   PROPERTIES
     
     _CMAKE_TEST_BUILD_DEPENDS [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests]==]
-    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:54]==]
+    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:53]==]
     WORKING_DIRECTORY [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -63,7 +63,7 @@ set_tests_properties([=[MergeSortTests.HandlesSingleElementArray]=]
   PROPERTIES
     
     _CMAKE_TEST_BUILD_DEPENDS [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests]==]
-    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:63]==]
+    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:62]==]
     WORKING_DIRECTORY [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -73,7 +73,7 @@ set_tests_properties([=[MergeSortTests.SortsArrayWithDuplicates]=]
   PROPERTIES
     
     _CMAKE_TEST_BUILD_DEPENDS [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests]==]
-    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:72]==]
+    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:71]==]
     WORKING_DIRECTORY [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -83,7 +83,7 @@ set_tests_properties([=[MergeSortTests.SortsNegativeNumbersWithDuplicates]=]
   PROPERTIES
     
     _CMAKE_TEST_BUILD_DEPENDS [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests]==]
-    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:81]==]
+    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:80]==]
     WORKING_DIRECTORY [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -93,7 +93,7 @@ set_tests_properties([=[MergeSortTests.SortsMixedNumbersWithDuplicates]=]
   PROPERTIES
     
     _CMAKE_TEST_BUILD_DEPENDS [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests]==]
-    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:90]==]
+    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:89]==]
     WORKING_DIRECTORY [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -103,7 +103,7 @@ set_tests_properties([=[MergeSortTests.HandlesTwoSortedElements]=]
   PROPERTIES
     
     _CMAKE_TEST_BUILD_DEPENDS [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests]==]
-    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:99]==]
+    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:98]==]
     WORKING_DIRECTORY [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -113,7 +113,7 @@ set_tests_properties([=[MergeSortTests.SortsLargeArray]=]
   PROPERTIES
     
     _CMAKE_TEST_BUILD_DEPENDS [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests]==]
-    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:108]==]
+    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:107]==]
     WORKING_DIRECTORY [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
@@ -123,7 +123,7 @@ set_tests_properties([=[MergeSortTests.SortsLargeArrayWithDuplicatesAndNegativeN
   PROPERTIES
     
     _CMAKE_TEST_BUILD_DEPENDS [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests]==]
-    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:126]==]
+    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:125]==]
     WORKING_DIRECTORY [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build]==]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     

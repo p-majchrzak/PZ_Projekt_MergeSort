@@ -15,7 +15,6 @@ target_include_directories(MergeSort PRIVATE
 )
 
 include(CTest)
-
 include(FetchContent)
 
 FetchContent_Declare(
@@ -31,7 +30,16 @@ add_executable(MergeSortTests
     Projekt/tests/MergeSortTests.cpp
 )
 
+add_executable(MergeSortTypeTests
+    Projekt/tests/MergeSortTypeTests.cpp
+)
+
+
 target_include_directories(MergeSortTests PRIVATE
+    Projekt/include
+)
+
+target_include_directories(MergeSortTypeTests PRIVATE
     Projekt/include
 )
 
@@ -39,5 +47,11 @@ target_link_libraries(MergeSortTests PRIVATE
     GTest::gtest_main
 )
 
+target_link_libraries(MergeSortTypeTests PRIVATE
+    GTest::gtest_main
+)
+
 include(GoogleTest)
+
 gtest_discover_tests(MergeSortTests)
+gtest_discover_tests(MergeSortTypeTests)
