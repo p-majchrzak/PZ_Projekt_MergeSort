@@ -108,4 +108,24 @@ set_tests_properties([=[MergeSortTests.HandlesTwoSortedElements]=]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
 )
-set(MergeSortTests_TESTS [==[MergeSortTests.KeepsAlreadySortedArrayUnchanged]==] [==[MergeSortTests.SortsReverseSortedArray]==] [==[MergeSortTests.SortsRandomArray]==] [==[MergeSortTests.SortsNegativeNumbers]==] [==[MergeSortTests.SortsNegativeAndPositiveNumbers]==] [==[MergeSortTests.HandlesEmptyArray]==] [==[MergeSortTests.HandlesSingleElementArray]==] [==[MergeSortTests.SortsArrayWithDuplicates]==] [==[MergeSortTests.SortsNegativeNumbersWithDuplicates]==] [==[MergeSortTests.SortsMixedNumbersWithDuplicates]==] [==[MergeSortTests.HandlesTwoSortedElements]==])
+add_test([=[MergeSortTests.SortsLargeArray]=]  /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests [==[--gtest_filter=MergeSortTests.SortsLargeArray]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[MergeSortTests.SortsLargeArray]=]
+  PROPERTIES
+    
+    _CMAKE_TEST_BUILD_DEPENDS [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests]==]
+    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:108]==]
+    WORKING_DIRECTORY [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[MergeSortTests.SortsLargeArrayWithDuplicatesAndNegativeNumbers]=]  /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests [==[--gtest_filter=MergeSortTests.SortsLargeArrayWithDuplicatesAndNegativeNumbers]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[MergeSortTests.SortsLargeArrayWithDuplicatesAndNegativeNumbers]=]
+  PROPERTIES
+    
+    _CMAKE_TEST_BUILD_DEPENDS [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests]==]
+    DEF_SOURCE_LINE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/Projekt/tests/MergeSortTests.cpp:126]==]
+    WORKING_DIRECTORY [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+set(MergeSortTests_TESTS [==[MergeSortTests.KeepsAlreadySortedArrayUnchanged]==] [==[MergeSortTests.SortsReverseSortedArray]==] [==[MergeSortTests.SortsRandomArray]==] [==[MergeSortTests.SortsNegativeNumbers]==] [==[MergeSortTests.SortsNegativeAndPositiveNumbers]==] [==[MergeSortTests.HandlesEmptyArray]==] [==[MergeSortTests.HandlesSingleElementArray]==] [==[MergeSortTests.SortsArrayWithDuplicates]==] [==[MergeSortTests.SortsNegativeNumbersWithDuplicates]==] [==[MergeSortTests.SortsMixedNumbersWithDuplicates]==] [==[MergeSortTests.HandlesTwoSortedElements]==] [==[MergeSortTests.SortsLargeArray]==] [==[MergeSortTests.SortsLargeArrayWithDuplicatesAndNegativeNumbers]==])

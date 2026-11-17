@@ -103,3 +103,43 @@ TEST(MergeSortTests, HandlesTwoSortedElements) {
 
     EXPECT_EQ(numbers, (std::vector<int>{2, 5}));
 }
+
+// Sprawdza czy algorytm poprawnie sortuje tablicę zawierającą ponad 100 elementów.
+TEST(MergeSortTests, SortsLargeArray) {
+    std::vector<int> numbers;
+    std::vector<int> expected;
+
+    for (int i = 150; i > 0; --i) {
+        numbers.push_back(i);
+    }
+
+    for (int i = 1; i <= 150; ++i) {
+        expected.push_back(i);
+    }
+
+    MergeSort<int>::sort(numbers);
+
+    EXPECT_EQ(numbers, expected);
+}
+
+// Sprawdza czy algorytm poprawnie sortuje dużą tablicę z liczbami ujemnymi, dodatnimi i duplikatami.
+TEST(MergeSortTests, SortsLargeArrayWithDuplicatesAndNegativeNumbers) {
+    std::vector<int> numbers;
+    std::vector<int> expected;
+
+    for (int i = 0; i < 150; ++i) {
+        numbers.push_back((i % 21) - 10);
+    }
+
+    for (int i = -10; i <= 10; ++i) {
+        for (int j = 0; j < 150; ++j) {
+            if ((j % 21) - 10 == i) {
+                expected.push_back(i);
+            }
+        }
+    }
+
+    MergeSort<int>::sort(numbers);
+
+    EXPECT_EQ(numbers, expected);
+}
