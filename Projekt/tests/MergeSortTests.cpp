@@ -1,10 +1,21 @@
+
+/**
+ * @file MergeSortTests.cpp
+ * @brief Testy jednostkowe algorytmu Merge Sort z wykorzystaniem Google Test.
+ *
+ * Plik zawiera testy sprawdzajace poprawne sortowanie tablic
+ * o roznych rozmiarach i zawierajacych rozne wartosci.
+ */
+
 #include <vector>
 
 #include <gtest/gtest.h>
 
 #include "MergeSort.h"
 
-// Sprawdza czy tablica posortowana rosnąco pozostaje bez zmian.
+/**
+ * @brief Sprawdza czy tablica posortowana rosnaco pozostaje bez zmian.
+ */
 TEST(MergeSortTests, KeepsAlreadySortedArrayUnchanged) {
     std::vector<int> numbers = {1, 2, 3, 4, 5};
 
@@ -13,7 +24,9 @@ TEST(MergeSortTests, KeepsAlreadySortedArrayUnchanged) {
     EXPECT_EQ(numbers, (std::vector<int>{1, 2, 3, 4, 5}));
 }
 
-// Sprawdza czy tablica posortowana odwrotnie zostaje poprawnie uporządkowana.
+/**
+ * @brief Sprawdza czy tablica posortowana odwrotnie zostaje poprawnie uporzadkowana.
+ */
 TEST(MergeSortTests, SortsReverseSortedArray) {
     std::vector<int> numbers = {9, 7, 5, 3, 1};
 
@@ -22,7 +35,9 @@ TEST(MergeSortTests, SortsReverseSortedArray) {
     EXPECT_EQ(numbers, (std::vector<int>{1, 3, 5, 7, 9}));
 }
 
-// Sprawdza czy tablica z losową kolejnością liczb zostaje poprawnie posortowana.
+/**
+ * @brief Sprawdza czy tablica z losowa kolejnoscia liczb zostaje poprawnie posortowana.
+ */
 TEST(MergeSortTests, SortsRandomArray) {
     std::vector<int> numbers = {8, 3, 6, 1, 9, 2, 5, 4};
 
@@ -31,7 +46,9 @@ TEST(MergeSortTests, SortsRandomArray) {
     EXPECT_EQ(numbers, (std::vector<int>{1, 2, 3, 4, 5, 6, 8, 9}));
 }
 
-// Sprawdza czy tablica zawierająca wyłącznie liczby ujemne zostaje poprawnie posortowana.
+/**
+ * @brief Sprawdza sortowanie tablicy zawierajacej wylacznie liczby ujemne.
+ */
 TEST(MergeSortTests, SortsNegativeNumbers) {
     std::vector<int> numbers = {-3, -8, -1, -5, -2};
 
@@ -40,7 +57,9 @@ TEST(MergeSortTests, SortsNegativeNumbers) {
     EXPECT_EQ(numbers, (std::vector<int>{-8, -5, -3, -2, -1}));
 }
 
-// Sprawdza czy tablica zawierająca liczby ujemne i dodatnie zostaje poprawnie posortowana.
+/**
+ * @brief Sprawdza sortowanie tablicy zawierajacej liczby ujemne i dodatnie.
+ */
 TEST(MergeSortTests, SortsNegativeAndPositiveNumbers) {
     std::vector<int> numbers = {5, -3, 8, -1, 0, 2};
 
@@ -49,7 +68,9 @@ TEST(MergeSortTests, SortsNegativeAndPositiveNumbers) {
     EXPECT_EQ(numbers, (std::vector<int>{-3, -1, 0, 2, 5, 8}));
 }
 
-// Sprawdza czy sortowanie pustej tablicy nie powoduje błędu.
+/**
+ * @brief Sprawdza czy sortowanie pustej tablicy nie powoduje bledu.
+ */
 TEST(MergeSortTests, HandlesEmptyArray) {
     std::vector<int> numbers;
 
@@ -58,7 +79,9 @@ TEST(MergeSortTests, HandlesEmptyArray) {
     EXPECT_TRUE(numbers.empty());
 }
 
-// Sprawdza czy tablica zawierająca jeden element pozostaje bez zmian.
+/**
+ * @brief Sprawdza czy tablica zawierajaca jeden element pozostaje bez zmian.
+ */
 TEST(MergeSortTests, HandlesSingleElementArray) {
     std::vector<int> numbers = {7};
 
@@ -67,7 +90,9 @@ TEST(MergeSortTests, HandlesSingleElementArray) {
     EXPECT_EQ(numbers, (std::vector<int>{7}));
 }
 
-// Sprawdza czy tablica zawierająca duplikaty zostaje poprawnie posortowana.
+/**
+ * @brief Sprawdza sortowanie tablicy zawierajacej powtarzajace sie wartosci.
+ */
 TEST(MergeSortTests, SortsArrayWithDuplicates) {
     std::vector<int> numbers = {4, 2, 4, 1, 2, 3};
 
@@ -76,7 +101,9 @@ TEST(MergeSortTests, SortsArrayWithDuplicates) {
     EXPECT_EQ(numbers, (std::vector<int>{1, 2, 2, 3, 4, 4}));
 }
 
-// Sprawdza czy tablica zawierająca liczby ujemne i duplikaty zostaje poprawnie posortowana.
+/**
+ * @brief Sprawdza sortowanie liczb ujemnych zawierajacych duplikaty.
+ */
 TEST(MergeSortTests, SortsNegativeNumbersWithDuplicates) {
     std::vector<int> numbers = {-3, -1, -3, -5, -1, -2};
 
@@ -85,7 +112,9 @@ TEST(MergeSortTests, SortsNegativeNumbersWithDuplicates) {
     EXPECT_EQ(numbers, (std::vector<int>{-5, -3, -3, -2, -1, -1}));
 }
 
-// Sprawdza czy tablica zawierająca liczby ujemne, dodatnie i duplikaty zostaje poprawnie posortowana.
+/**
+ * @brief Sprawdza sortowanie liczb ujemnych, dodatnich i duplikatow.
+ */
 TEST(MergeSortTests, SortsMixedNumbersWithDuplicates) {
     std::vector<int> numbers = {3, -2, 3, -5, 0, -2, 5};
 
@@ -94,7 +123,9 @@ TEST(MergeSortTests, SortsMixedNumbersWithDuplicates) {
     EXPECT_EQ(numbers, (std::vector<int>{-5, -2, -2, 0, 3, 3, 5}));
 }
 
-// Sprawdza czy tablica zawierająca dwa elementy w kolejności rosnącej pozostaje bez zmian.
+/**
+ * @brief Sprawdza czy dwa elementy ulozone rosnaco pozostaja bez zmian.
+ */
 TEST(MergeSortTests, HandlesTwoSortedElements) {
     std::vector<int> numbers = {2, 5};
 
@@ -103,7 +134,9 @@ TEST(MergeSortTests, HandlesTwoSortedElements) {
     EXPECT_EQ(numbers, (std::vector<int>{2, 5}));
 }
 
-// Sprawdza czy algorytm poprawnie sortuje tablicę zawierającą ponad 100 elementów.
+/**
+ * @brief Sprawdza sortowanie tablicy zawierajacej ponad 100 elementow.
+ */
 TEST(MergeSortTests, SortsLargeArray) {
     std::vector<int> numbers;
     std::vector<int> expected;
@@ -121,7 +154,10 @@ TEST(MergeSortTests, SortsLargeArray) {
     EXPECT_EQ(numbers, expected);
 }
 
-// Sprawdza czy algorytm poprawnie sortuje dużą tablicę z liczbami ujemnymi, dodatnimi i duplikatami.
+/**
+ * @brief Sprawdza sortowanie duzej tablicy z liczbami ujemnymi,
+ * dodatnimi oraz powtarzajacymi sie wartosciami.
+ */
 TEST(MergeSortTests, SortsLargeArrayWithDuplicatesAndNegativeNumbers) {
     std::vector<int> numbers;
     std::vector<int> expected;
