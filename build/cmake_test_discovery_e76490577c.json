@@ -1,25 +1,75 @@
 {
-  "tests": 3,
+  "tests": 13,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "MergeSortTests",
-      "tests": 3,
+      "tests": 13,
       "testsuite": [
         {
           "name": "KeepsAlreadySortedArrayUnchanged",
           "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
-          "line": 9
+          "line": 8
         },
         {
           "name": "SortsReverseSortedArray",
           "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
-          "line": 18
+          "line": 17
         },
         {
           "name": "SortsRandomArray",
           "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
-          "line": 27
+          "line": 26
+        },
+        {
+          "name": "SortsNegativeNumbers",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 35
+        },
+        {
+          "name": "SortsNegativeAndPositiveNumbers",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 44
+        },
+        {
+          "name": "HandlesEmptyArray",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 53
+        },
+        {
+          "name": "HandlesSingleElementArray",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 62
+        },
+        {
+          "name": "SortsArrayWithDuplicates",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 71
+        },
+        {
+          "name": "SortsNegativeNumbersWithDuplicates",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 80
+        },
+        {
+          "name": "SortsMixedNumbersWithDuplicates",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 89
+        },
+        {
+          "name": "HandlesTwoSortedElements",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 98
+        },
+        {
+          "name": "SortsLargeArray",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 107
+        },
+        {
+          "name": "SortsLargeArrayWithDuplicatesAndNegativeNumbers",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 125
         }
       ]
     }

@@ -1,0 +1,20 @@
+include("/opt/homebrew/share/cmake/Modules/GoogleTestAddTests.cmake")
+gtest_discover_tests_impl(
+  TEST_TARGET [==[MergeSortTypeTests]==]
+  TEST_EXECUTABLE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTypeTests]==]
+  TEST_EXECUTOR [==[]==]
+  TEST_WORKING_DIR [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build]==]
+  TEST_EXTRA_ARGS [==[]==]
+  TEST_PROPERTIES [==[]==]
+  TEST_PREFIX [==[]==]
+  TEST_SUFFIX [==[]==]
+  TEST_FILTER [==[]==]
+  NO_PRETTY_TYPES [==[FALSE]==]
+  NO_PRETTY_VALUES [==[FALSE]==]
+  TEST_LIST [==[MergeSortTypeTests_TESTS]==]
+  CTEST_FILE [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTypeTests_e3b0c442_tests.cmake]==]
+  TEST_DISCOVERY_TIMEOUT [==[5]==]
+  TEST_DISCOVERY_EXTRA_ARGS [==[]==]
+  TEST_XML_OUTPUT_DIR [==[]==]
+  TEST_JSON_OUTPUT_DIR [==[/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build]==]
+)

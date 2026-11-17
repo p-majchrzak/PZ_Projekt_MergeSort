@@ -1,0 +1,27 @@
+{
+  "tests": 3,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "MergeSortTypeTests",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "SortsLongIntNumbers",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTypeTests.cpp",
+          "line": 8
+        },
+        {
+          "name": "SortsFloatNumbers",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTypeTests.cpp",
+          "line": 17
+        },
+        {
+          "name": "SortsDoubleNumbers",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTypeTests.cpp",
+          "line": 26
+        }
+      ]
+    }
+  ]
+}

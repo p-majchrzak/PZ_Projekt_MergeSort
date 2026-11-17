@@ -1,0 +1,5 @@
+if(EXISTS "/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTypeTests_e3b0c442_tests.cmake")
+  include("/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTypeTests_e3b0c442_tests.cmake")
+else()
+  add_test(MergeSortTypeTests_NOT_BUILT MergeSortTypeTests_NOT_BUILT)
+endif()
