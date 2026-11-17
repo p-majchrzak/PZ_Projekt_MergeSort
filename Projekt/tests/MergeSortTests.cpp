@@ -31,3 +31,39 @@ TEST(MergeSortTests, SortsRandomArray) {
 
     EXPECT_EQ(numbers, (std::vector<int>{1, 2, 3, 4, 5, 6, 8, 9}));
 }
+
+// Sprawdza czy tablica zawierająca wyłącznie liczby ujemne zostaje poprawnie posortowana.
+TEST(MergeSortTests, SortsNegativeNumbers) {
+    std::vector<int> numbers = {-3, -8, -1, -5, -2};
+
+    MergeSort<int>::sort(numbers);
+
+    EXPECT_EQ(numbers, (std::vector<int>{-8, -5, -3, -2, -1}));
+}
+
+// Sprawdza czy tablica zawierająca liczby ujemne i dodatnie zostaje poprawnie posortowana.
+TEST(MergeSortTests, SortsNegativeAndPositiveNumbers) {
+    std::vector<int> numbers = {5, -3, 8, -1, 0, 2};
+
+    MergeSort<int>::sort(numbers);
+
+    EXPECT_EQ(numbers, (std::vector<int>{-3, -1, 0, 2, 5, 8}));
+}
+
+// Sprawdza czy sortowanie pustej tablicy nie powoduje błędu.
+TEST(MergeSortTests, HandlesEmptyArray) {
+    std::vector<int> numbers;
+
+    MergeSort<int>::sort(numbers);
+
+    EXPECT_TRUE(numbers.empty());
+}
+
+// Sprawdza czy tablica zawierająca jeden element pozostaje bez zmian.
+TEST(MergeSortTests, HandlesSingleElementArray) {
+    std::vector<int> numbers = {7};
+
+    MergeSort<int>::sort(numbers);
+
+    EXPECT_EQ(numbers, (std::vector<int>{7}));
+}

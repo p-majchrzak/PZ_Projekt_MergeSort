@@ -1,4 +1,8 @@
-MergeSortTests.KeepsAlreadySortedArrayUnchanged 4 0.000663937
-MergeSortTests.SortsReverseSortedArray 2 0.00118275
-MergeSortTests.SortsRandomArray 1 0.00225967
+MergeSortTests.KeepsAlreadySortedArrayUnchanged 5 0.00114736
+MergeSortTests.SortsReverseSortedArray 3 0.00138262
+MergeSortTests.SortsRandomArray 2 0.00179912
+MergeSortTests.SortsNegativeNumbers 1 0.00421413
+MergeSortTests.SortsNegativeAndPositiveNumbers 1 0.00353042
+MergeSortTests.HandlesEmptyArray 1 0.00408404
+MergeSortTests.HandlesSingleElementArray 1 0.00372383
 ---
