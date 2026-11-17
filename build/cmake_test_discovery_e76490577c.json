@@ -1,10 +1,10 @@
 {
-  "tests": 2,
+  "tests": 3,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "MergeSortTests",
-      "tests": 2,
+      "tests": 3,
       "testsuite": [
         {
           "name": "KeepsAlreadySortedArrayUnchanged",
@@ -15,6 +15,11 @@
           "name": "SortsReverseSortedArray",
           "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
           "line": 18
+        },
+        {
+          "name": "SortsRandomArray",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 27
         }
       ]
     }

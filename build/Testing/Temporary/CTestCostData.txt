@@ -1,3 +1,4 @@
-MergeSortTests.KeepsAlreadySortedArrayUnchanged 3 0.00212168
-MergeSortTests.SortsReverseSortedArray 1 0.00407679
+MergeSortTests.KeepsAlreadySortedArrayUnchanged 4 0.000663937
+MergeSortTests.SortsReverseSortedArray 2 0.00118275
+MergeSortTests.SortsRandomArray 1 0.00225967
 ---
