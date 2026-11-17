@@ -1,0 +1,27 @@
+{
+  "tests": 3,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "MergeSortTests",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "KeepsAlreadySortedArrayUnchanged",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 9
+        },
+        {
+          "name": "SortsReverseSortedArray",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 18
+        },
+        {
+          "name": "SortsRandomArray",
+          "file": "\/Users\/piotrmajchrzak\/Desktop\/PZ_Projekt_MergeSort\/Projekt\/tests\/MergeSortTests.cpp",
+          "line": 27
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+Start testing: Nov 17 13:53 CET
+----------------------------------------------------------
+1/3 Testing: MergeSortTests.KeepsAlreadySortedArrayUnchanged
+1/3 Test: MergeSortTests.KeepsAlreadySortedArrayUnchanged
+Command: "/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests" "--gtest_filter=MergeSortTests.KeepsAlreadySortedArrayUnchanged" "--gtest_also_run_disabled_tests"
+Directory: /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build
+"MergeSortTests.KeepsAlreadySortedArrayUnchanged" start time: Nov 17 13:53 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MergeSortTests.KeepsAlreadySortedArrayUnchanged
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MergeSortTests
+[ RUN      ] MergeSortTests.KeepsAlreadySortedArrayUnchanged
+[       OK ] MergeSortTests.KeepsAlreadySortedArrayUnchanged (0 ms)
+[----------] 1 test from MergeSortTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MergeSortTests.KeepsAlreadySortedArrayUnchanged" end time: Nov 17 13:53 CET
+"MergeSortTests.KeepsAlreadySortedArrayUnchanged" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: MergeSortTests.SortsReverseSortedArray
+2/3 Test: MergeSortTests.SortsReverseSortedArray
+Command: "/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests" "--gtest_filter=MergeSortTests.SortsReverseSortedArray" "--gtest_also_run_disabled_tests"
+Directory: /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build
+"MergeSortTests.SortsReverseSortedArray" start time: Nov 17 13:53 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MergeSortTests.SortsReverseSortedArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MergeSortTests
+[ RUN      ] MergeSortTests.SortsReverseSortedArray
+[       OK ] MergeSortTests.SortsReverseSortedArray (0 ms)
+[----------] 1 test from MergeSortTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MergeSortTests.SortsReverseSortedArray" end time: Nov 17 13:53 CET
+"MergeSortTests.SortsReverseSortedArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: MergeSortTests.SortsRandomArray
+3/3 Test: MergeSortTests.SortsRandomArray
+Command: "/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/MergeSortTests" "--gtest_filter=MergeSortTests.SortsRandomArray" "--gtest_also_run_disabled_tests"
+Directory: /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build
+"MergeSortTests.SortsRandomArray" start time: Nov 17 13:53 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MergeSortTests.SortsRandomArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MergeSortTests
+[ RUN      ] MergeSortTests.SortsRandomArray
+[       OK ] MergeSortTests.SortsRandomArray (0 ms)
+[----------] 1 test from MergeSortTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MergeSortTests.SortsRandomArray" end time: Nov 17 13:53 CET
+"MergeSortTests.SortsRandomArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 17 13:53 CET

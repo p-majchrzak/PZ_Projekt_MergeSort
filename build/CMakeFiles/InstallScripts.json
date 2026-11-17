@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/cmake_install.cmake",
+		"/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/_deps/googletest-build/cmake_install.cmake",
+		"/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/Users/piotrmajchrzak/Desktop/PZ_Projekt_MergeSort/build/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
