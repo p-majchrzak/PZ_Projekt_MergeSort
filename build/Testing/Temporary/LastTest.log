@@ -155,7 +155,7 @@ Note: Google Test filter = MergeSortTests.HandlesEmptyArray
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
 "MergeSortTests.HandlesEmptyArray" end time: Nov 17 15:24 CET
@@ -182,7 +182,7 @@ Note: Google Test filter = MergeSortTests.HandlesSingleElementArray
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
 "MergeSortTests.HandlesSingleElementArray" end time: Nov 17 15:24 CET
@@ -209,7 +209,7 @@ Note: Google Test filter = MergeSortTests.SortsArrayWithDuplicates
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
 "MergeSortTests.SortsArrayWithDuplicates" end time: Nov 17 15:24 CET
@@ -371,7 +371,7 @@ Note: Google Test filter = MergeSortTypeTests.SortsLongIntNumbers
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
 "MergeSortTypeTests.SortsLongIntNumbers" end time: Nov 17 15:24 CET
